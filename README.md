@@ -1,7 +1,6 @@
-# swisscovery UNIGE VU3
+# swisscovery UNIGE VU1
 
-This repository contains the code for the Primo VE **development** view of swisscovery UNIGE interface. This view is publicly accessible
-[on our sandbox](https://slsp-unige.primo.exlibrisgroup.com/discovery/search?vid=41SLSP_UGE:VU3).
+This repository contains the code for the Primo VE **productive** view of swisscovery UNIGE interface. This view is [publicly accessible on our production environment](https://slsp-unige.primo.exlibrisgroup.com/discovery/search?vid=41SLSP_UGE:VU1).
 
 This view is based on the [SLSP central-customization-package](https://github.com/Swiss-Library-Service-Platform/central-customization-package).
 
