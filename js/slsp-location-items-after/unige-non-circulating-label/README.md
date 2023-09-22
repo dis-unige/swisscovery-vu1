@@ -6,12 +6,12 @@ which are only available when users are logged in.
 Consequently, loan policies are often mistakenly displayed for users that are not logged in. Instead, it would be beneficial for the loan
 policy display to be controlled by item or location policies. 
 This is [a long-expected and heavily requested feature](https://ideas.exlibrisgroup.com/forums/308176-primo/suggestions/36317461-display-item-policy-in-item-record)
-and ExLibris has finally developped and the item policy can be displayed after the august 2023 release: https://knowledge.exlibrisgroup.com/Primo/Release_Notes/002Primo_VE/2023/010Primo_VE_2023_Release_Notes?mon=202308BASE#Features 
+and ExLibris has finally developped this feature and the item policy can be displayed after the august 2023 release: https://knowledge.exlibrisgroup.com/Primo/Release_Notes/002Primo_VE/2023/010Primo_VE_2023_Release_Notes?mon=202308BASE#Features 
 
 Until this enhancement was released, many SLSP members have disabled the display of loan policies altogether to remove loanable items to be
 mistakenly labeled as unavailable, however this also means that items that are actually not available are not flagged as such.
 
-The item policy display is currently being tested at the UNIGE, but the proposed labels need to be improved to avoid confusion. A solution for modifying this display is [available in our VU3]sandbox(https://github.com/dis-unige/swisscovery-vu3/tree/main/js/slsp-location-items-after/unige-loan-policy-label-fix), but until it is implemented, this module attempts to provide a temporary solution to this issue:
+The item policy display is currently being tested at the UNIGE, but the proposed labels need to be improved to avoid confusion. A solution for modifying this display is [available in the VU3 of our sandbox](https://github.com/dis-unige/swisscovery-vu3/tree/main/js/slsp-location-items-after/unige-loan-policy-label-fix), but until it is implemented, this module provide a temporary solution to this issue:
 
  * If the user is not logged in: the item display is modified to show a general message inviting the user to log in in order to see whether an item is loanable or not
  * If the user is logged in and the document is loanable: the display is left as-is, the loan conditions displayed are OK
